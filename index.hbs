@@ -13,6 +13,12 @@
             <h2 class="blog-description">{{@blog.description}}</h2>
         </div>
     </div>
+	<nav class="main-nav overlay clearfix">
+        {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
+        {{#if @blog.navigation}}
+            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+        {{/if}}
+    </nav>
 </header>
 
 {{! The main content area on the homepage }}
@@ -45,7 +51,7 @@
     (function () {
     var s = document.createElement('script'); s.async = true;
     s.type = 'text/javascript';
-    s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+    s.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
     (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
     </script>

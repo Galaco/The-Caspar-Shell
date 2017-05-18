@@ -1,15 +1,11 @@
-# The Shell
+# The Caspar Shell
 
-Simple theme for [Ghost](http://github.com/tryghost/ghost/).
+The Shell was created by [@mityalebedev](https://github.com/mityalebedev/).
 
-* Pure CSS
-* Web Safe fonts
+Theme has been modified for personal use, adding sections of Caspar that I needed.
 
-* Added Google Analytics, Disqus and syntax highlighting support by [@AlphaCluster](https://github.com/AlphaCluster) - version without this features available in 'Shell_0.1' branch
-
-
-
-You can find live example [here](http://ghostintheshell.ghost.io/).
-
-
-
+Additions:
+* Added+styled Ghost's Caspar theme's navbar
+* Several color adjustments and font changes
+* Used the header bar on post page as well
+* Updated Disqus support
